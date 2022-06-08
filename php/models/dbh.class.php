@@ -2,10 +2,10 @@
 
 class Dbh
 {
-  private $host = 'remotemysql.com';
-  private $user = '';
+  private $host = 'localhost';
+  private $user = 'root';
   private $pwd = '';
-  private $dbname = '';
+  private $dbname = 'mini_ecommerce';
   private $model = 'products';
 
   public function connect()
